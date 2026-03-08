@@ -67,6 +67,12 @@ export default function Theme2Header() {
 
           <div className={styles.utilButtons}>
             <Link
+              href="/admin/login"
+              className="text-[#666666] hover:text-[#e94e4e] text-sm font-medium transition-colors hidden xl:inline"
+            >
+              Admin
+            </Link>
+            <Link
               href="/"
               className="text-[#666666] hover:text-[#e94e4e] text-sm font-medium transition-colors hidden xl:inline"
             >
